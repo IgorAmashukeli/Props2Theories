@@ -2,7 +2,7 @@
 
 About the repository:
 
-This course covers the most significant foundations, core knowledge and application for math (sometimes with reference to Pure Math, sometimes with reference to Theoretical Computer Science).
+This course covers the most significant foundations, core knowledge and applications for math (sometimes with reference to Pure Math, sometimes with reference to Theoretical Computer Science).
 
 The course structure in this repository closely resembles that of my Voltage2Services course.
 
