@@ -78,7 +78,7 @@ theorem existential_elim (α : Type) (P : α → Prop) (q : Prop) (h : ∃ x : �
 
 
 -- 10) Inhabited type property
-theorem inh_property (α : Type) [Inhabited α] : α := Inhabited.default
+def inh_property (α : Type) [Inhabited α] : α := Inhabited.default
 
 
 -- 11) Equality intro
