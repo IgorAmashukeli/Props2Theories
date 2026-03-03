@@ -1,4 +1,4 @@
-# Logic2PureMath
+# Props2Theories
 
 ## Common words about the repository:
 
@@ -12,7 +12,7 @@ It explains the basics of math, starting from the logic and set axioms and proce
 
 But it is much deeper and at a higher level than many well-known courses.
 
-Let's call this Logic2PureMath.
+Let's call this Props2Theories.
 
 For this course, all fundamental main math course objects and theorems about them (with solution proofs) will be added, so the course will change. 
 
