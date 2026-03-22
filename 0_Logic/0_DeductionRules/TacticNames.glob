@@ -1,0 +1,17 @@
+DIGEST 25aac9fb6e2b171b6f43de2e30a1fdf7
+FTacticNames
+R28:28 Corelib.Init.Logic <> I constr
+mod 333:341 <> classical
+ax 351:362 classical neg_neg_elim
+binder 374:374 <> p:1
+R385:385 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R407:411 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R386:386 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R397:401 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R388:391 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R387:387 TacticNames <> p:1 var
+R392:396 Corelib.Init.Logic <> False ind
+R402:406 Corelib.Init.Logic <> False ind
+R412:412 TacticNames <> p:1 var
+R443:454 TacticNames classical neg_neg_elim prfax
+R465:473 TacticNames classical <> mod
