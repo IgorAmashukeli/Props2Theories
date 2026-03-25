@@ -1,0 +1,51 @@
+DIGEST dbc5fa4e39a865f20c91153f11d86598
+FTop.TacticNames
+def 11:14 <> el_f
+binder 17:17 <> p:1
+R34:37 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R29:33 Corelib.Init.Logic <> False ind
+R38:38 Top.TacticNames <> p:1 var
+R52:56 Corelib.Init.Logic <> False ind
+binder 48:48 <> x:2
+R73:73 Top.TacticNames <> x:2 var
+R116:116 Corelib.Init.Logic <> I constr
+R153:156 Corelib.Init.Logic <> True ind
+R169:169 Corelib.Init.Logic <> I constr
+R199:202 Top.TacticNames <> el_f def
+R378:381 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R396:399 Corelib.Init.Logic <> conj constr
+R727:730 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R727:730 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R758:758 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R765:769 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R760:763 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R770:770 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R777:781 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R772:775 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1234:1238 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R1253:1256 Corelib.Init.Logic <> conj constr
+R1724:1724 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R1859:1863 Corelib.Init.Logic <> False ind
+R1928:1931 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1932:1936 Corelib.Init.Logic <> False ind
+mod 1963:1971 <> classical
+ax 1981:1992 classical neg_neg_elim
+binder 2004:2004 <> p:4
+R2015:2015 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2029:2033 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2016:2016 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2019:2023 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2017:2017 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2018:2018 Top.TacticNames <> p:4 var
+R2024:2028 Corelib.Init.Logic <> False ind
+R2034:2034 Top.TacticNames <> p:4 var
+R2064:2075 Top.TacticNames classical neg_neg_elim prfax
+R2112:2123 Top.TacticNames classical neg_neg_elim prfax
+R2216:2219 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2213 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2220:2224 Corelib.Init.Logic <> False ind
+R2216:2219 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2213 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2220:2224 Corelib.Init.Logic <> False ind
+R2264:2275 Top.TacticNames classical neg_neg_elim prfax
+R2294:2302 Top.TacticNames classical <> mod
