@@ -118,6 +118,12 @@ Proof.
     apply (implication_intro_2 p q h_pq).
 Qed.
 
+Theorem implication_intro_4 (p q : Prop) (h_pq : q) : p → q.
+Proof.
+    assert (h_pq₂ : p → q) by (intro h_p; assumption).
+    assumption.
+Qed.
+
 Theorem implication_intros (p q t : Prop) (h_pqt : p → q → t) : p → q → t.
 Proof.
     intros hp hq.
@@ -210,6 +216,12 @@ Proof.
     left_.
 Qed.
 
+Theorem or_intro_left_3 (p q : Prop) (h_p : p) : p ∨ q.
+Proof.
+    _left h_p q h_pt.
+    assumption.
+Qed.
+
 Theorem or_intro_right (p q : Prop) (h_q : q) : p ∨ q.
 Proof.
     right.
@@ -220,6 +232,13 @@ Theorem or_intro_right_2 (p q : Prop) (h_q : q) : p ∨ q.
 Proof.
     right_.
 Qed.
+
+Theorem or_intro_right_3 (p q : Prop) (h_q : q) : p ∨ q.
+Proof.
+    _right h_q p hpq.
+    assumption.
+Qed.
+
 
 
 
@@ -303,6 +322,12 @@ Theorem iff_lrl_2 (p q : Prop) (h_pq : p ↔ q) : p → q.
     elim_iff_l h_pq hp.
 Qed.
 
+Theorem iff_lrl_3 (p q : Prop) (h_pq : p ↔ q) : p → q.
+    intro hp.
+    elim_iff_l_ h_pq.
+    assumption.
+Qed.
+
 Theorem iff_rlr (p q : Prop) (h_pq : p ↔ q) : q → p.
 Proof.
     intro hq.
@@ -315,12 +340,22 @@ Theorem iff_rlr_2 (p q : Prop) (h_qp : p ↔ q) : q → p.
 Proof.
     intro hq.
     elim_iff_r h_qp hq.
-Qed. 
+Qed.
+
+Theorem iff_rlr_3 (p q : Prop) (h_qp : p ↔ q) : q → p.
+Proof.
+    intro hq.
+    elim_iff_r_ h_qp.
+    assumption.
+Qed.
 
 Theorem iff_rl (p q : Prop) (h_pq : p ↔ q) : q → p.
 Proof.
     elim_iff_ h_pq.
 Qed.
+
+
+
 
 
 

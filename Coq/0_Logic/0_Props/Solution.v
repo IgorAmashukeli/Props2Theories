@@ -828,26 +828,41 @@ Qed.
 
 Theorem xor_introl (p q : Prop) : (p ∧ ¬q) → (p ⊕ q).
 Proof.
-
+    intro hpnq.
+    left_.
 Qed.
-Theorem xor_intror (p q : Prop) : (¬p ∧ q) → (p ⊕ q).
+Theorem xor_intror (p q : Prop) : (q ∧ ¬p) → (p ⊕ q).
 Proof.
+    intro hnpq.
+    right_.
 
 Qed.
 Theorem xor_intro (p q : Prop) : (p ∨ q) → (¬ (p ∧ q)) → (p ⊕ q).
 Proof.
-
+    intros hpq hnpq.
+    pose (xed := xor_equiv_def p q).
+    elim_iff_r_ xed.
+    intro_and_ hpq hnpq.
 Qed.
 Theorem xor_left (p q : Prop) : (p ⊕ q) → (p ∨ q).
 Proof.
-
+    intros hpq.
+    pose (xed := xor_equiv_def p q).
+    _elim_iff_l xed hpq hporq.
+    elim_and_ hporq.
 Qed.
 Theorem xor_right (p q : Prop) : (p ⊕ q) → (¬ (p ∧ q)).
 Proof.
-
+    intros hpq.
+    pose (xed := xor_equiv_def p q).
+    _elim_iff_l xed hpq hporq.
+    elim_and_ hporq.
 Qed.
-Theorem xor_elim (p q r : Prop) : (p ⊕ q) → ((p ∧ ¬q) → r) → ((¬p ∧ q) → r) → r.
+Theorem xor_elim (p q r : Prop) : (p ⊕ q) → ((p ∧ ¬q) → r) → ((q ∧ ¬p) → r) → r.
 Proof.
-
+    intros hpq.
+    intros hpnqr.
+    intros hnpqr.
+    elim_or_ hpq hpnqr hnpqr.
 Qed.
 

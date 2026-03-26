@@ -269,7 +269,7 @@ Admitted.
 Theorem xor_introl (p q : Prop) : (p ∧ ¬q) → (p ⊕ q).
 Proof.
 Admitted.
-Theorem xor_intror (p q : Prop) : (¬p ∧ q) → (p ⊕ q).
+Theorem xor_intror (p q : Prop) : (q ∧ ¬p) → (p ⊕ q).
 Proof.
 Admitted.
 Theorem xor_intro (p q : Prop) : (p ∨ q) → (¬ (p ∧ q)) → (p ⊕ q).
@@ -281,6 +281,6 @@ Admitted.
 Theorem xor_right (p q : Prop) : (p ⊕ q) → (¬ (p ∧ q)).
 Proof.
 Admitted.
-Theorem xor_elim (p q r : Prop) : (p ⊕ q) → ((p ∧ ¬q) → r) → ((¬p ∧ q) → r) → r.
+Theorem xor_elim (p q r : Prop) : (p ⊕ q) → ((p ∧ ¬q) → r) → ((q ∧ ¬p) → r) → r.
 Proof.
 Admitted.
