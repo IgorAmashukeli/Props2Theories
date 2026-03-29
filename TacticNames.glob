@@ -1,4 +1,4 @@
-DIGEST e4ab6cf67f7063210fbd1b3912f29b14
+DIGEST 66e510163204dea8c701db5942897ec0
 FTop.TacticNames
 def 11:14 <> el_f
 binder 17:17 <> p:1
@@ -43,43 +43,63 @@ R4099:4099 Corelib.Init.Logic <> ::type_scope:'~'_x not
 R4100:4100 Top.TacticNames <> p:4 var
 R4106:4110 Corelib.Init.Logic <> False ind
 R4116:4116 Top.TacticNames <> p:4 var
-R4216:4227 Top.TacticNames classical neg_neg_elim prfax
-R4269:4280 Top.TacticNames classical neg_neg_elim prfax
-R4379:4382 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4376:4376 Corelib.Init.Logic <> ::type_scope:'~'_x not
-R4383:4387 Corelib.Init.Logic <> False ind
-R4379:4382 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R4376:4376 Corelib.Init.Logic <> ::type_scope:'~'_x not
-R4383:4387 Corelib.Init.Logic <> False ind
-R4431:4442 Top.TacticNames classical neg_neg_elim prfax
-R4460:4468 Top.TacticNames classical <> mod
-R4927:4933 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R4935:4936 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 4934:4934 <> x:7
-R4939:4939 Top.TacticNames <> x:7 var
-R5266:5272 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R5274:5275 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 5273:5273 <> x:8
-R5280:5280 Top.TacticNames <> x:8 var
-R5266:5272 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R5274:5275 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 5273:5273 <> x:9
-R5280:5280 Top.TacticNames <> x:9 var
-R5306:5306 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R5325:5329 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-binder 5314:5314 <> x:10
-R5320:5323 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R5319:5319 Top.TacticNames <> x:10 var
-R5689:5695 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R5697:5698 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 5696:5696 <> x:11
-R5703:5703 Top.TacticNames <> x:11 var
-R5689:5695 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R5697:5698 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 5696:5696 <> x:12
-R5703:5703 Top.TacticNames <> x:12 var
-R5729:5729 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R5748:5752 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-binder 5737:5737 <> x:13
-R5743:5746 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
-R5742:5742 Top.TacticNames <> x:13 var
+ax 4127:4137 classical prop_extens
+binder 4149:4149 <> p:7
+binder 4151:4151 <> q:8
+R4162:4162 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4170:4175 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4181:4181 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4164:4168 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4163:4163 Top.TacticNames <> p:7 var
+R4169:4169 Top.TacticNames <> q:8 var
+R4177:4179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4176:4176 Top.TacticNames <> p:7 var
+R4180:4180 Top.TacticNames <> q:8 var
+R4286:4297 Top.TacticNames classical neg_neg_elim prfax
+R4339:4350 Top.TacticNames classical neg_neg_elim prfax
+R4449:4452 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4446:4446 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4453:4457 Corelib.Init.Logic <> False ind
+R4449:4452 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4446:4446 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4453:4457 Corelib.Init.Logic <> False ind
+R4501:4512 Top.TacticNames classical neg_neg_elim prfax
+R4561:4571 Top.TacticNames classical prop_extens prfax
+R4662:4666 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4662:4666 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4745:4749 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4745:4749 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4801:4803 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4818:4828 Top.TacticNames classical prop_extens prfax
+R4841:4849 Top.TacticNames classical <> mod
+R5475:5481 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5483:5484 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5482:5482 <> x:11
+R5487:5487 Top.TacticNames <> x:11 var
+R5814:5820 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5822:5823 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5821:5821 <> x:12
+R5828:5828 Top.TacticNames <> x:12 var
+R5814:5820 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5822:5823 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5821:5821 <> x:13
+R5828:5828 Top.TacticNames <> x:13 var
+R5854:5854 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5873:5877 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5862:5862 <> x:14
+R5868:5871 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5867:5867 Top.TacticNames <> x:14 var
+R6237:6243 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6245:6246 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6244:6244 <> x:15
+R6251:6251 Top.TacticNames <> x:15 var
+R6237:6243 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6245:6246 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6244:6244 <> x:16
+R6251:6251 Top.TacticNames <> x:16 var
+R6277:6277 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6296:6300 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6285:6285 <> x:17
+R6291:6294 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6290:6290 Top.TacticNames <> x:17 var
+R6638:6640 Corelib.Init.Logic <> ::type_scope:x_'='_x not

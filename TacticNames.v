@@ -90,6 +90,10 @@ Tactic Notation "_elim_f_neg" constr(hnp) constr(v) ident(hv) :=
 
 Module classical.
   Axiom neg_neg_elim : forall {p : Prop}, ((~p) -> False) -> p.
+  Axiom prop_extens : forall {p q : Prop}, (p <-> q) -> (p = q).
+
+  
+
 
   (* Define as Ltac first to preserve the 'classical.' namespace *)
   Ltac by_contra h := apply neg_neg_elim; intro h.
@@ -101,7 +105,28 @@ Module classical.
              | (~?P -> False) => P
              end in
     pose proof (neg_neg_elim hnp) as hp.
+
+
+  Ltac intro_prop_eq h := apply (prop_extens h).
+
+  Ltac intro_prop_eq_ h h_new := 
+    let P := match type of h with
+
+          | (?P <-> _) => P
+          end 
+    in
+    let Q := match type of h with
+          | (_ <-> ?Q) => Q
+          end
+    in
+    assert (h_new : P = Q) by (exact (prop_extens h)).
+
+
 End classical.
+
+Tactic Notation "intro_prop_eq" constr(h) := classical.intro_prop_eq h.
+
+Tactic Notation "intro_prop_eq_" constr(h) ident(h_new) := classical.intro_prop_eq_ h h_new.
 
 (* Global Notations that map to the Module's Ltac *)
 Tactic Notation "by_contra" ident(h) := classical.by_contra h.
@@ -147,3 +172,7 @@ Tactic Notation "_elim_exists_app" constr(h) constr(Q) ident(newH) constr(hpq) :
             apply (_h_f _w);
             exact _p)
   end; cbv beta in newH; apply newH in hpq.
+
+
+Tactic Notation "_reflexivity" constr(x) ident(h) :=
+  assert (h : x = x) by reflexivity.
