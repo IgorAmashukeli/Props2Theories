@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["315167ca2c2ca038.olean"],
+  "i": "db3d234b703f9c8d.ilean",
+  "c": "0376adbeefae3e8d.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean /home/igor/.elan/toolchains/leanprover--lean4---v4.29.0/bin/lean /home/igor/ComputerScience/Props2Theories/Props2Theories/TacticNames.lean -o /home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean/Props2Theories/TacticNames.olean -i /home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean/Props2Theories/TacticNames.ilean -c /home/igor/ComputerScience/Props2Theories/.lake/build/ir/Props2Theories/TacticNames.c --setup /home/igor/ComputerScience/Props2Theories/.lake/build/ir/Props2Theories/TacticNames.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["Props2Theories.TacticNames:deps",
+   [["deps",
+     [["Props2Theories/Props2Theories:extraDep",
+       [["@Props2Theories:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.0, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740",
+   "60bb08ef22408c8a"],
+  ["/home/igor/ComputerScience/Props2Theories/Props2Theories/TacticNames.lean",
+   "bac84d5a0d550590"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Props2Theories.TacticNames", "59c89c2c2c3b6e13"],
+  ["Package.id?: (some Props2Theories)", "bf69640ed8a43e05"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "aa4cd3cdf863b55f"}

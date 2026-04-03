@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["5cdb28c4502d5c9b.olean"],
+  "i": "8174a263747a123d.ilean",
+  "c": "08bc1fbf835f5763.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean /home/igor/.elan/toolchains/leanprover--lean4---v4.29.0/bin/lean /home/igor/ComputerScience/Props2Theories/Props2Theories/Axioms.lean -o /home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean/Props2Theories/Axioms.olean -i /home/igor/ComputerScience/Props2Theories/.lake/build/lib/lean/Props2Theories/Axioms.ilean -c /home/igor/ComputerScience/Props2Theories/.lake/build/ir/Props2Theories/Axioms.c --setup /home/igor/ComputerScience/Props2Theories/.lake/build/ir/Props2Theories/Axioms.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["Props2Theories.Axioms:deps",
+   [["deps",
+     [["Props2Theories/Props2Theories:extraDep",
+       [["@Props2Theories:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.0, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740",
+   "60bb08ef22408c8a"],
+  ["/home/igor/ComputerScience/Props2Theories/Props2Theories/Axioms.lean",
+   "50d19d2dab6255fd"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Props2Theories.Axioms", "d28e21cd9c83a095"],
+  ["Package.id?: (some Props2Theories)", "bf69640ed8a43e05"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "fe49b383b3b59906"}
